@@ -55,10 +55,57 @@
 <div class="modal is-hidden" data-modal>
     <div class="modal-content">
         <button class="close-btn" data-modal-close>&times;</button>
-        Continut modal 
+        <h3>Leave your contacts and we will call you back</h3>
+        
+        <form class="form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" class="input-for-icon" />
+                <svg class="input-icon">
+                    <use href="./icons.svg/symbol-defs.svg#icon-person-black-18dp-1"></use>
+                </svg>
+            </div>
+        
+            <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="tel" name="phone" id="phone" class="input-for-icon" />
+                <svg class="input-icon">
+                    <use href="./icons.svg/symbol-defs.svg#icon-phone-black-18dp-1"></use>
+                </svg>
+            </div>
+        
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" class="input-for-icon" />
+                <svg class="input-icon">
+                    <use href="./icons.svg/symbol-defs.svg#icon-email-black-18dp-1"></use>
+                </svg>
+            </div>
+        
+            <div class="form-group">
+                <label for="comment">Comment</label>
+                <textarea class="input-comment" name="textarea" placeholder="Text input" id="comment">
+                    </textarea>
+            </div>
+        
+            <div>
+                <label class="agree-check">
+                    <input type="checkbox" class="checkmark" name="agreement" value="agree" />
+                    <svg class="icon">
+                        <use href="./icons.svg/symbol-defs.svg#icon-Checkbox"></use>
+                    </svg>
+                    <span class="service-text">I accept the terms and conditions of the
+                        <span class="privacy-text">Privacy Policy</span></span>
+                </label>
+            </div>
+        
+            <div class="btn-send-form">
+                <input type="submit" value="Send" class="btn-send" />
+            </div>
+        </form>
+        </div>
+        </div> 
 
-    </div>
-</div>
         </section>
         <!--Feature section-->
         <section class="feature-section">
@@ -412,7 +459,29 @@
                 </ul>
             </div>
 
+            <div class="subscribe">
+                <h2 class="subscribe-title">Subscribe</h2>
+                <form>
+                    <div class="footer-form">
+                        <label>
+                            <input class="E-mail" type="text" name="E-mail" placeholder="E-mail" autocomplete="off" autofocus />
+                            <button class="footer-btn">
+                                <h3 class="footer-btn-text">Subscribe</h3>
+                                <svg class="icon-paper-plane" width="24" height="24">
+                                <use href="./icons.svg/symbol-defs.svg#icon-Frame-3"></use>
+                                </svg>
+                                </button>
+                                </label>
+                                </div>
+                                </form>
+                            
+            
+
     </footer>
+
+    <script>
+        feather.replace();
+        </script>
 <script src="./javascript/modal.js"></script>
 </body>
 
